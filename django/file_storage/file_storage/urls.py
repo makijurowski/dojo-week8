@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^gcloud/', include('apps.gcloud.urls'))
+    url(r'^gcloud/', include('apps.gcloud.urls')),
+    url(r'^just_code/', include('apps.just_code.urls'))
 ]
