@@ -1,0 +1,27 @@
+<!-- {% extends 'templates/base.html' %} 
+{% load static %}
+
+{% block title %}<title>{{ user.name }}All Users</title>{% endblock %}
+
+{% block menu_item %}
+{% if user.is_authenticated %}
+    <li><a href="{% url 'users:update_profile' %}"><span class="glyphicon glyphicon-user"></span> {{ user.username }}</a></li>
+    <li><a href="{% url 'users:logout' %}"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+{% else %}
+    <li><a href="{% url 'users:accounts_index' %}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    <li><a href="{% url 'users:accounts_index' %}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+{% endif %}
+{% endblock %}
+
+
+
+
+{% block content %}
+<div class="col-sm-10 profile">
+{% if user.is_authenticated %}
+    {% load django_tables2 %}
+    {% render_table table %}
+{% endif %}
+</div>
+
+{% endblock %} -->
