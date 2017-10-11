@@ -106,3 +106,4 @@ client_secrets*.json
 settings.yaml
 client_id.json
 storage.json
+*.zip
