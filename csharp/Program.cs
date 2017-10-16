@@ -20,7 +20,17 @@ namespace csharp
 
             int rings = 5;
             const string name = "Kobe";
-            if (rings >= 5 && name == "Kobe")
+            int numOfAllStarAppearances = 17;
+            bool crazy = false;
+            if (!crazy)
+            {
+                Console.WriteLine("Let's party!");
+            }
+            else if (rings >= 5 || numOfAllStarAppearances > 3)
+            {
+                Console.WriteLine("Welcome you are truly a legend.");
+            }
+            else if (rings >= 5 && name == "Kobe")
             {
                 Console.WriteLine("Welcome to the party {0}, congratulations on your {1} rings.", name, rings);
             }
