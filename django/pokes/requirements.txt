@@ -92,7 +92,7 @@ virtualenvwrapper==4.7.2
 vishap==0.1.5
 voussoirkit==0.0.16
 wcwidth==0.1.7
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 whichcraft==0.4.1
 wrapt==1.10.11
 yapf==0.17.0
